@@ -7,7 +7,7 @@ from datetime import datetime
 # ================= 配置区域 =================
 # 在这里填入你不想导出的属性名称（区分大小写）
 # 例如：SKIP_PROPERTIES = ["创建时间", "状态", "Files & media"]
-SKIP_PROPERTIES = ["Created time", "Created by"] 
+SKIP_PROPERTIES = ["Created time", "Created by", "预警代办"] 
 
 # 是否抓取页面正文？(True=抓取, False=只抓属性)
 # 注意：开启抓取正文会变慢，因为要逐页请求
